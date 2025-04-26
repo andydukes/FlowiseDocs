@@ -8,19 +8,19 @@ description: Learn how to deploy Flowise on Digital Ocean
 
 1. Haz click en **Create** y selecciona **Droplets**
 
-<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--8---2-.png" alt=""><figcaption></figcaption></figure>
 
 2. Selecciona Ubuntu y el plan que prefieras
 
-<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--9---2-.png" alt=""><figcaption></figcaption></figure>
 
 3. Selecciona un datacenter region
 
-<figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--11---2-.png" alt=""><figcaption></figcaption></figure>
 
 4. Crea un nuevo SSH key o selecciona uno existente
 
-<figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--7---2-.png" alt=""><figcaption></figcaption></figure>
 
 5. Haz click en **Create Droplet**
 
@@ -70,7 +70,7 @@ cd Flowise && cd docker
 nano .env
 ```
 
-<figure><img src="../../.gitbook/assets/image (10) (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--10---2-.png" alt="" width="375"><figcaption></figcaption></figure>
 
 4. Especifica las environment variables:
 
@@ -186,7 +186,7 @@ sudo systemctl restart nginx
 
 7. Ve a tu proveedor de DNS y agrega un nuevo registro A. El nombre será tu nombre de dominio y el valor será la dirección IP pública de tu droplet
 
-<figure><img src="../../.gitbook/assets/image (3) (2).png" alt="" width="367"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--3---2-.png" alt="" width="367"><figcaption></figcaption></figure>
 
 Nginx ahora está configurado como proxy inverso para tu servidor de aplicaciones. Ahora deberías poder abrir la aplicación: http://yourdomain.com.
 

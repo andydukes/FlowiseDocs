@@ -4,7 +4,7 @@ description: Envoltorio alrededor de los modelos de lenguaje grandes de GoogleVe
 
 # GoogleVertex AI
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt="" width="336"><figcaption><p>Nodo GoogleVertex AI</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--4---1---1---1-.png" alt="" width="336"><figcaption><p>Nodo GoogleVertex AI</p></figcaption></figure>
 
 {% hint style="info" %}
 Esta sección está en desarrollo. Agradecemos cualquier ayuda que puedas proporcionar para completar esta sección. Por favor, consulta nuestra [Guía de Contribución](../../../contributing/) para comenzar.

@@ -87,7 +87,7 @@ Therefore, by introducing chunk overlap during the text splitting phase, we enha
 So, to further optimize the trade-off between retrieval accuracy and cost, two primary strategies can be used:
 
 1. **Increase/Decrease Chunk Overlap:** Adjusting the overlap percentage during text splitting allows for fine-grained control over the amount of shared context between chunks. Higher overlap percentages generally lead to improved context preservation but may also increase costs since you would need to use more chunks to encompass the entire document. Conversely, lower overlap percentages can reduce costs but risk losing key contextual information between chunks, potentially leading to less accurate or incomplete answers from the LLM.
-2. **Increase/Decrease Top K:** Raising the default top K value (4) expands the number of chunks considered for response generation. While this can improve accuracy, it also increases cost.
+2. **Increase/Decrease Top K:** Raising the default top K value--4- expands the number of chunks considered for response generation. While this can improve accuracy, it also increases cost.
 
 {% hint style="info" %}
 **Tip:** The choice of optimal **overlap** and **top K** values depends on factors such as document complexity, embedding model characteristics, and the desired balance between accuracy and cost. Experimentation with these values is important for finding the ideal configuration for a specific need.

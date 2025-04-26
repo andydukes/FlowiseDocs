@@ -6,7 +6,7 @@ description: >-
 
 # Weaviate
 
-<figure><img src="../../../.gitbook/assets/image (165).png" alt="" width="295"><figcaption><p>Nodo Weaviate</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--165-.png" alt="" width="295"><figcaption><p>Nodo Weaviate</p></figcaption></figure>
 
 ## Filtrado
 
@@ -14,7 +14,7 @@ Weaviate soporta la siguiente [sintaxis](https://weaviate.io/developers/weaviate
 
 **UI**
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt="" width="227"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--5---1---1-.png" alt="" width="227"><figcaption></figcaption></figure>
 
 **API**
 

@@ -52,7 +52,7 @@ Puedes separar las conversaciones para múltiples usuarios especificando un **`s
 
 1. Para cada nodo de memory, deberías poder ver un parámetro de entrada **`Session ID`**
 
-<figure><img src="../../../.gitbook/assets/image (76).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--76-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/Untitled--1---1---1---1---1-.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -76,6 +76,6 @@ Puedes separar las conversaciones para múltiples usuarios especificando un **`s
 
 Todas las conversaciones también pueden ser visualizadas y gestionadas desde la UI:
 
-<figure><img src="../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--78-.png" alt=""><figcaption></figcaption></figure>
 
 Para OpenAI Assistant, se utilizarán [Threads](../agents/openai-assistant/threads.md) para almacenar las conversaciones.

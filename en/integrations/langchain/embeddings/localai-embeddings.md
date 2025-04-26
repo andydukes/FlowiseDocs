@@ -13,11 +13,11 @@ To use LocalAI Embeddings within Flowise, follow the steps below:
    </strong></code></pre>
 3. LocalAI provides an [API endpoint](https://localai.io/api-endpoints/index.html#applying-a-model---modelsapply) to download/install the model. In this example, we are going to use BERT Embeddings model:
 
-<figure><img src="../../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--27---1-.png" alt=""><figcaption></figcaption></figure>
 
 4. In the `/models` folder, you should be able to see the downloaded model in there:
 
-<figure><img src="../../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--23---1-.png" alt=""><figcaption></figcaption></figure>
 
 5. You can now test the embeddings:
 
@@ -30,13 +30,13 @@ curl http://localhost:8080/v1/embeddings -H "Content-Type: application/json" -d 
 
 6. Response should looks like:
 
-<figure><img src="../../../.gitbook/assets/image (29).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--29-.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Flowise Setup
 
 Drag and drop a new LocalAIEmbeddings component to canvas:
 
-<figure><img src="../../../.gitbook/assets/image (21) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--21---1---2-.png" alt=""><figcaption></figcaption></figure>
 
 Fill in the fields:
 

@@ -6,7 +6,7 @@ Cuando se proporcionan fragmentos de texto y una consulta, construye recursivame
 
 **Contras**: La precisión de la respuesta podría perderse durante el recorrido de la estructura del árbol
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--7---1---1---1---2-.png" alt=""><figcaption></figcaption></figure>
 
 **Prompt**
 

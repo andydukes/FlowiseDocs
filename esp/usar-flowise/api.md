@@ -9,10 +9,10 @@ Consulta la [Referencia de API](../api-reference/) para ver la lista completa de
 
 ## Prediction
 
-<div data-full-width="false"><figure><img src="../.gitbook/assets/image (16) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/image--16---1---1---1-.png" alt=""><figcaption></figcaption></figure></div>
 
-{% swagger src="../.gitbook/assets/swagger (1) (1) (1).yml" path="/prediction/{id}" method="post" %}
-[swagger (1) (1) (1).yml](<../.gitbook/assets/swagger (1) (1) (1).yml>)
+{% swagger src="../.gitbook/assets/swagger--1---1---1-.yml" path="/prediction/{id}" method="post" %}
+[swagger--1---1---1-.yml](<../.gitbook/assets/swagger--1---1---1-.yml>)
 {% endswagger %}
 
 ### Usando Python/TS Library
@@ -126,9 +126,9 @@ Sobrescribe la configuración de entrada existente del chatflow con la propiedad
 
 Por razones de seguridad, la sobrescritura de configuración está deshabilitada por defecto. El usuario debe habilitarla yendo a **Chatflow Configuration** -> pestaña **Security**. Luego seleccionar la propiedad que puede ser sobrescrita.
 
-<figure><img src="../.gitbook/assets/image (188).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--188-.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--45-.png" alt=""><figcaption></figcaption></figure>
 
 {% tabs %}
 {% tab title="Python API" %}
@@ -366,7 +366,7 @@ query({
 
 Cuando **Allow Image Upload** está habilitado, las imágenes pueden ser cargadas desde la interfaz de chat.
 
-<div align="left" data-full-width="false"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="255"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-02-29 011714.png" alt="" width="290"><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../.gitbook/assets/image--1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="255"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-02-29 011714.png" alt="" width="290"><figcaption></figcaption></figure></div>
 
 {% tabs %}
 {% tab title="Python API" %}
@@ -430,7 +430,7 @@ query({
 
 Cuando **Speech to Text** está habilitado, los usuarios pueden hablar directamente en el micrófono y la voz se transcribirá en texto.
 
-<div align="left"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-02-29 012538.png" alt="" width="431"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image--2---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-02-29 012538.png" alt="" width="431"><figcaption></figcaption></figure></div>
 
 {% tabs %}
 {% tab title="Python API" %}
@@ -490,8 +490,8 @@ query({
 
 ## Vector Upsert API
 
-{% swagger src="../.gitbook/assets/swagger (1) (1) (1).yml" path="/vector/upsert/{id}" method="post" %}
-[swagger (1) (1) (1).yml](<../.gitbook/assets/swagger (1) (1) (1).yml>)
+{% swagger src="../.gitbook/assets/swagger--1---1---1-.yml" path="/vector/upsert/{id}" method="post" %}
+[swagger--1---1---1-.yml](<../.gitbook/assets/swagger--1---1---1-.yml>)
 {% endswagger %}
 
 ### Document Loaders with File Upload
@@ -506,7 +506,7 @@ Algunos document loaders en Flowise permiten al usuario cargar archivos:
 * [Text File](../integrations/langchain/document-loaders/text-file.md)
 * [Unstructured File](../integrations/langchain/document-loaders/unstructured-file-loader.md)
 
-<div data-full-width="false"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/image--2---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt=""><figcaption></figcaption></figure></div>
 
 Si el flujo contiene [Document Loaders](../integrations/langchain/document-loaders/) con la funcionalidad de carga de archivo, la API se ve ligeramente diferente. En lugar de pasar el cuerpo como JSON, **form data** se utiliza. Esto te permite enviar archivos a la API.
 If the flow contains [Document Loaders](../integrations/langchain/document-loaders/) with Upload File functionality, the API looks slightly different. Instead of passing body as JSON, **form data** is being used. This allows you to send files to the API.
@@ -626,12 +626,12 @@ query({
 
 Refer to [Document Stores](document-stores.md#id-10.-api) section for more information about how to use the API.
 
-{% swagger src="../.gitbook/assets/swagger (2).yml" path="/document-store/upsert/{id}" method="post" %}
-[swagger (2).yml](<../.gitbook/assets/swagger (2).yml>)
+{% swagger src="../.gitbook/assets/swagger--2-.yml" path="/document-store/upsert/{id}" method="post" %}
+[swagger--2-.yml](<../.gitbook/assets/swagger--2-.yml>)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/swagger (2).yml" path="/document-store/refresh/{id}" method="post" %}
-[swagger (2).yml](<../.gitbook/assets/swagger (2).yml>)
+{% swagger src="../.gitbook/assets/swagger--2-.yml" path="/document-store/refresh/{id}" method="post" %}
+[swagger--2-.yml](<../.gitbook/assets/swagger--2-.yml>)
 {% endswagger %}
 
 ## Video Tutorials

@@ -57,15 +57,15 @@ User can specify `STORAGE_TYPE` to use AWS S3, Google Cloud Storage or local pat
 
 `DEBUG`: if set to true, will print logs to terminal/console:
 
-<figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--3---3-.png" alt=""><figcaption></figcaption></figure>
 
 `LOG_LEVEL`: Different log levels for loggers to be saved. Can be `error`, `info`, `verbose`, or `debug.` By default it is set to `info,` only `logger.info` will be saved to the log files. If you want to have complete details, set to `debug`.
 
-<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption><p><strong>server-requests.log.jsonl - logs every request sent to Flowise</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--2---4-.png" alt=""><figcaption><p><strong>server-requests.log.jsonl - logs every request sent to Flowise</strong></p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><strong>server.log - logs general actions on Flowise</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--4---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt=""><figcaption><p><strong>server.log - logs general actions on Flowise</strong></p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5) (4).png" alt=""><figcaption><p><strong>server-error.log - logs error with stack trace</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--5---4-.png" alt=""><figcaption><p><strong>server-error.log - logs error with stack trace</strong></p></figcaption></figure>
 
 ### Logs Streaming S3
 
@@ -96,7 +96,7 @@ For some reasons, sometimes encryption key might be re-generated or the stored p
 
 To avoid this, you can set your own encryption key as `FLOWISE_SECRETKEY_OVERWRITE`, so that the same encryption key will be used everytime. There is no restriction on the format, you can set it as any text that you want, or the same as your `FLOWISE_PASSWORD`.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Credential API Key returned from the UI is not the same length as your original Api Key that you have set. This is a fake prefix string that prevents network spoofing, that's why we are not returning the Api Key back to UI. However, the correct Api Key will be retrieved and used during your interaction with the chatflow.
@@ -121,7 +121,7 @@ Users can create multiple API keys within Flowise in order to authenticate with 
 
 Using `db` as storage type will store the API keys to database instead of a local JSON file.
 
-<figure><img src="../.gitbook/assets/image (254).png" alt=""><figcaption><p>Flowise API Keys</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--254-.png" alt=""><figcaption><p>Flowise API Keys</p></figcaption></figure>
 
 ## For Built-In and External Dependencies
 

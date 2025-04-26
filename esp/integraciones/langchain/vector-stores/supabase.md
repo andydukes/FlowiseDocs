@@ -5,7 +5,7 @@
 1. Registra una cuenta en [Supabase](https://supabase.com/)
 2. Haz clic en **New project**
 
-<figure><img src="../../../.gitbook/assets/image (8) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--8---2---1-.png" alt=""><figcaption></figcaption></figure>
 
 3. Ingresa los campos requeridos
 
@@ -14,16 +14,16 @@
 | **Name**                  | nombre del proyecto a crear (ej. Flowise)         |
 | **Database** **Password** | contraseña para tu base de datos postgres         |
 
-<figure><img src="../../../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--25---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 4. Haz clic en **Create new project** y espera a que el proyecto termine de configurarse
 5. Haz clic en **SQL Editor**
 
-<figure><img src="../../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--7---2-.png" alt=""><figcaption></figcaption></figure>
 
 6. Haz clic en **New query**
 
-<figure><img src="../../../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--36---1-.png" alt=""><figcaption></figcaption></figure>
 
 7. Copia y pega la siguiente consulta SQL y ejecútala con `Ctrl + Enter` o haciendo clic en **RUN**. Toma nota del nombre de la tabla y el nombre de la función.
 
@@ -114,21 +114,21 @@ end;
 $$;
 ```
 
-<figure><img src="../../../.gitbook/assets/image (19) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--19---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 ## Configuración
 
 1. Haz clic en **Project Settings**
 
-<figure><img src="../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--30---1-.png" alt=""><figcaption></figcaption></figure>
 
 2. Obtén tu **Project URL & API Key**
 
-<figure><img src="../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--2---3-.png" alt=""><figcaption></figcaption></figure>
 
 3. Copia y pega cada detalle (_API Key, URL, Table Name, Query Name_) en el nodo **Supabase**
 
-<figure><img src="../../../.gitbook/assets/image (85).png" alt="" width="331"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--85-.png" alt="" width="331"><figcaption></figcaption></figure>
 
 4. **Document** puede conectarse con cualquier nodo de la categoría [**Document Loader**](../document-loaders/)
 5. **Embeddings** puede conectarse con cualquier nodo de la categoría [**Embeddings**](../embeddings/)
@@ -143,7 +143,7 @@ Puedes usar filtrado de metadata para consultar metadata específica:
 
 **UI**
 
-<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (2) (1).png" alt="" width="232"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--9---1---1---1---1---2---1-.png" alt="" width="232"><figcaption></figcaption></figure>
 
 **API**
 

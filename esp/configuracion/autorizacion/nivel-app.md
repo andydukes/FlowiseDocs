@@ -8,7 +8,7 @@ description: Aprende cómo configurar el control de acceso a nivel de aplicació
 
 La app level authorization protege tu instancia de Flowise mediante username y password. Esto protege tus apps de ser accesibles por cualquier persona cuando están deployed online.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--2---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 ## How to Set Username & Password
 

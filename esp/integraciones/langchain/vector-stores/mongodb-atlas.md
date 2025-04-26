@@ -6,7 +6,7 @@ description: >-
 
 # MongoDB Atlas
 
-<figure><img src="../../../.gitbook/assets/image (161).png" alt="" width="308"><figcaption><p>Nodo MongoDB Atlas</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--161-.png" alt="" width="308"><figcaption><p>Nodo MongoDB Atlas</p></figcaption></figure>
 
 ### Configuración del Cluster[​](https://js.langchain.com/docs/integrations/vectorstores/mongodb_atlas/#initial-cluster-configuration) <a href="#initial-cluster-configuration" id="initial-cluster-configuration"></a>
 
@@ -56,12 +56,12 @@ Esta sección está en desarrollo. Agradecemos cualquier ayuda que puedas propor
 
 Arrastra y suelta el MongoDB Atlas Vector Store, y agrega una nueva credencial. Usa la cadena de conexión proporcionada desde el dashboard de MongoDB Atlas:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--1---1---1---1---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 Completa el resto de los campos:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="252"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--1---1---1---1---1---1---1---1-.png" alt="" width="252"><figcaption></figcaption></figure>
 
 También puedes configurar más detalles desde Additional Parameters:
 
-<figure><img src="../../../.gitbook/assets/image (164).png" alt="" width="518"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--164-.png" alt="" width="518"><figcaption></figcaption></figure>

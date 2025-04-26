@@ -44,6 +44,6 @@ Solo haz click en Deploy y completa las Env Variables como abajo:
 * SECRETKEY_PATH - `/opt/railway/.flowise`
 * BLOB_STORAGE_PATH - `/opt/railway/.flowise/storage`
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="420"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="420"><figcaption></figcaption></figure>
 
 Ahora intenta crear un flujo y guardarlo en Flowise. Luego intenta reiniciar el servicio o hacer redeploy, deberías poder ver el flujo que guardaste previamente.

@@ -57,13 +57,13 @@ Crea una nueva Tool con los siguientes detalles (puedes cambiarlos como desees):
 
 La descripción es una parte importante ya que ChatGPT se basa en esto para decidir cuándo usar esta tool.
 
-<figure><img src="../../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--6---3-.png" alt=""><figcaption></figcaption></figure>
 
 * JavaScript Function: Vamos a usar la API [Morning Star](https://rapidapi.com/apidojo/api/morning-star) `/market/v2/get-movers` para obtener datos. Primero debes hacer clic en Subscribe to Test si aún no lo has hecho, luego copia el código y pégalo en JavaScript Function.
   * Agrega `const fetch = require('node-fetch');` al principio para importar la librería. Puedes importar cualquier [módulo](https://www.w3schools.com/nodejs/ref_modules.asp) integrado de NodeJS y [librerías externas](https://github.com/FlowiseAI/Flowise/blob/main/packages/components/src/utils.ts#L289).
   * Retorna el `result` al final.
 
-<figure><img src="../../../.gitbook/assets/Untitled (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Untitled--4---1-.png" alt=""><figcaption></figcaption></figure>
 
 El código final debería ser:
 
@@ -108,7 +108,7 @@ Input Schema le indica al LLM qué debe devolver como objeto JSON. En este caso,
 <pre class="language-json"><code class="lang-json"><strong>{ "performanceId": "SOME TICKER" }
 </strong></code></pre>
 
-<figure><img src="../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--4---2-.png" alt=""><figcaption></figcaption></figure>
 
 * JavaScript Function: Vamos a usar la API [Morning Star](https://rapidapi.com/apidojo/api/morning-star) `/news/list` para obtener los datos. Primero debes hacer clic en Subscribe to Test si aún no lo has hecho, luego copia el código y pégalo en JavaScript Function.
   * Agrega `const fetch = require('node-fetch');` al principio para importar la librería. Puedes importar cualquier [módulo](https://www.w3schools.com/nodejs/ref_modules.asp) integrado de NodeJS y [librerías externas](https://github.com/FlowiseAI/Flowise/blob/main/packages/components/src/utils.ts#L289).
@@ -116,7 +116,7 @@ Input Schema le indica al LLM qué debe devolver como objeto JSON. En este caso,
 * Luego, reemplaza el parámetro performanceId codificado en la URL: `0P0000OQN8` por la variable de propiedad especificada en Input Schema: `$performanceId`
 * Puedes usar cualquier propiedad especificada en Input Schema como variables en la JavaScript Function agregando el prefijo `$` al principio del nombre de la variable.
 
-<figure><img src="../../../.gitbook/assets/Untitled (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Untitled--2---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 Código final:
 
@@ -170,7 +170,7 @@ ChatGPT devolverá un objeto JSON como este:
 { "stock": "SOME TICKER", "move": "20%", "news_summary": "Some summary" }
 ```
 
-<figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--36-.png" alt=""><figcaption></figcaption></figure>
 
 * JavaScript Function: Vamos a usar [Airtable Create Record API](https://airtable.com/developers/web/api/create-records) para crear un nuevo registro en una tabla existente. Puedes encontrar el tableId y baseId [aquí](https://www.highviewapps.com/kb/where-can-i-find-the-airtable-base-id-and-table-id/). También necesitarás crear un token de acceso personal, encuentra cómo hacerlo [aquí](https://www.highviewapps.com/kb/how-do-i-create-an-airtable-personal-access-token/).
 
@@ -219,7 +219,7 @@ Ahora puedes guardarlo.
 
 Deberías ver 3 tools creadas:
 
-<figure><img src="../../../.gitbook/assets/image (3) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--3---3---1-.png" alt=""><figcaption></figcaption></figure>
 
 ### Crear Chatflow
 
@@ -227,7 +227,7 @@ Puedes usar la plantilla **OpenAI Function** **Agent** del marketplace, y reempl
 
 Nota: OpenAI Function Agent solo soporta modelos 0613 actualmente.
 
-<figure><img src="../../../.gitbook/assets/image (15) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--15---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 Guarda el chatflow y comienza a probarlo. Para empezar, puedes intentar preguntar:
 

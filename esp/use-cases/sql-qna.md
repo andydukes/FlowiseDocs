@@ -16,17 +16,17 @@ A diferencia de ejemplos anteriores como [QnA con Web Scraping](web-scrape-qna.m
 4. Crear una función personalizada para ejecutar la consulta SQL y obtener la respuesta
 5. Devolver una respuesta natural de la respuesta SQL ejecutada
 
-<figure><img src="../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--113-.png" alt=""><figcaption></figcaption></figure>
 
 En este ejemplo, vamos a crear un chatbot QnA que pueda interactuar con una base de datos SQL almacenada en SingleStore
 
-<figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--116-.png" alt=""><figcaption></figcaption></figure>
 
 ## TL;DR
 
 Puedes encontrar la plantilla del chatflow:
 
-{% file src="../.gitbook/assets/SQL Chatflow.json" %}
+{% file src="../.gitbook/assets/SQL-Chatflow.json" %}
 
 ## 1. Esquema de Base de Datos SQL + Filas de Ejemplo
 
@@ -43,7 +43,7 @@ Jack McGinnis
 Steven Repici
 ```
 
-<figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--114-.png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -122,7 +122,7 @@ return sqlSchemaPrompt;
 
 Puedes encontrar más información sobre cómo obtener el `HOST`, `USER`, `PASSWORD` en esta [guía](broken-reference/). Una vez terminado, haz clic en Execute:
 
-<figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--117-.png" alt=""><figcaption></figcaption></figure>
 
 Ahora podemos ver que se ha generado el formato correcto. El siguiente paso es llevarlo al Prompt Template.
 
@@ -130,7 +130,7 @@ Ahora podemos ver que se ha generado el formato correcto. El siguiente paso es l
 
 Crea un nuevo Chat Model + Prompt Template + LLMChain
 
-<figure><img src="../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--118-.png" alt=""><figcaption></figcaption></figure>
 
 Especifica el siguiente prompt en el Prompt Template:
 
@@ -146,7 +146,7 @@ SQL QUERY:
 
 Como estamos usando 2 variables: {schema} y {question}, especifica sus valores en **Format Prompt Values**:
 
-<figure><img src="../.gitbook/assets/image (122).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--122-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Puedes proporcionar más ejemplos al prompt (es decir, few-shot prompting) para que el LLM aprenda mejor. O toma referencia del [dialect-specific prompting](https://js.langchain.com/docs/use_cases/sql/prompting#dialect-specific-prompting)
@@ -182,17 +182,17 @@ return $sqlQuery;
 {% endtab %}
 {% endtabs %}
 
-<figure><img src="../.gitbook/assets/image (119).png" alt="" width="327"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--119-.png" alt="" width="327"><figcaption></figcaption></figure>
 
 En la Else Function, enrutaremos a un Prompt Template + LLMChain que básicamente le dice al LLM que no puede responder la consulta del usuario:
 
-<figure><img src="../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--120-.png" alt=""><figcaption></figcaption></figure>
 
 ## 4. Función personalizada para ejecutar la consulta SQL y obtener la respuesta
 
 Si es una consulta SQL válida, necesitamos ejecutarla. Conecta la salida _**True**_ del nodo **If Else** a un nodo **Custom JS Function**:
 
-<figure><img src="../.gitbook/assets/image (123).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--123-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 <details>
 
@@ -247,7 +247,7 @@ return result;
 
 Crea un nuevo Chat Model + Prompt Template + LLMChain
 
-<figure><img src="../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--124-.png" alt=""><figcaption></figcaption></figure>
 
 Write the following prompt in the Prompt Template:
 
@@ -263,7 +263,7 @@ NATURAL LANGUAGE RESPONSE:
 
 Specify the variables in **Format Prompt Values**:
 
-<figure><img src="../.gitbook/assets/image (125).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--125-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Voila! Your SQL chatbot is now ready for testing!
 
@@ -271,7 +271,7 @@ Voila! Your SQL chatbot is now ready for testing!
 
 First, let's ask something related to the database.
 
-<figure><img src="../.gitbook/assets/image (128).png" alt="" width="434"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--128-.png" alt="" width="434"><figcaption></figcaption></figure>
 
 Looking at the logs, we can see the first LLMChain is able to give us a SQL query:
 
@@ -306,7 +306,7 @@ The address of John is 120 Jefferson St.
 
 Now, we if ask something that is irrelevant to the SQL database, the Else route is taken.
 
-<figure><img src="../.gitbook/assets/image (132).png" alt="" width="428"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--132-.png" alt="" width="428"><figcaption></figcaption></figure>
 
 For first LLMChain, a SQL query is generated as below:
 
@@ -332,4 +332,4 @@ In this example, we have successfully created a SQL chatbot that can interact wi
 
 You can find the chatflow below:
 
-{% file src="../.gitbook/assets/SQL Chatflow (1).json" %}
+{% file src="../.gitbook/assets/SQL-Chatflow--1-.json" %}

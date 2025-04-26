@@ -52,7 +52,7 @@ You can separate the conversations for multiple users by specifying a unique **`
 
 1. For every memory node, you should be able to see a input parameter **`Session ID`**
 
-<figure><img src="../../../.gitbook/assets/image (76).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--76-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/Untitled--1---1---1---1---1-.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -76,6 +76,6 @@ You can separate the conversations for multiple users by specifying a unique **`
 
 All conversations can be visualized and managed from UI as well:
 
-<figure><img src="../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--78-.png" alt=""><figcaption></figcaption></figure>
 
 For OpenAI Assistant, [Threads](../agents/openai-assistant/threads.md) will be used to store conversations.

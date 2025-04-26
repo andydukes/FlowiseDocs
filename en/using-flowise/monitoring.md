@@ -18,11 +18,11 @@ After Prometheus is installed, run it using a configuration file. Flowise provid
 
 Remember to have Flowise instance also running. You can open browser and navigate to port 9090. From the dashboard, you should be able to see the metric endpoint - `/api/v1/metrics` is now live.
 
-<figure><img src="../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--178-.png" alt=""><figcaption></figcaption></figure>
 
 By default, `/api/v1/metrics` is available for Prometheus to pull the metrics from.
 
-<figure><img src="../.gitbook/assets/image (177).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--177-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Grafana
 
@@ -32,23 +32,23 @@ Grafana can be installed in various ways. Refer to the [guide](https://grafana.c
 
 Grafana by default will expose port 9091:
 
-<figure><img src="../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--179-.png" alt=""><figcaption></figcaption></figure>
 
 On the left side bar, click Add new connection, and select Prometheus:
 
-<figure><img src="../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--180-.png" alt=""><figcaption></figcaption></figure>
 
 Since our Prometheus is serving at port 9090:
 
-<figure><img src="../.gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--181-.png" alt=""><figcaption></figcaption></figure>
 
 Scroll to the bottom and test the connection:
 
-<figure><img src="../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--182-.png" alt=""><figcaption></figcaption></figure>
 
 Take note of the data source ID shown in the toolbar, we'll need this for creating dashboards:
 
-<figure><img src="../.gitbook/assets/image (184).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--184-.png" alt=""><figcaption></figcaption></figure>
 
 Now that connection is added successfully, we can start adding dashboard. From the left side bar, click Dashboards, and Create Dashboard.
 
@@ -59,17 +59,17 @@ Flowise provides 2 template dashboards:
 
 If you are using templates above, find and replace all occurence of `cds4j1ybfuhogb` with the data source ID you created and saved earlier.
 
-<figure><img src="../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--183-.png" alt=""><figcaption></figcaption></figure>
 
 You can also choose to import first then edit the JSON later:
 
-<figure><img src="../.gitbook/assets/image (185).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--185-.png" alt=""><figcaption></figcaption></figure>
 
 Now, try to perform some actions on the Flowise, you should be able to see the metrics displayed:
 
-<figure><img src="../.gitbook/assets/image (186).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--186-.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (187).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--187-.png" alt=""><figcaption></figcaption></figure>
 
 ## OpenTelemetry
 

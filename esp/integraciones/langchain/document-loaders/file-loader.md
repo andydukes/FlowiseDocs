@@ -1,6 +1,6 @@
 # File Loader
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="282"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--1---1---1---1---1---1---1---1---1-.png" alt="" width="282"><figcaption></figcaption></figure>
 
 File Loader permite al usuario cargar cualquier tipo de archivo y utiliza automáticamente el cargador apropiado para cargar el documento.
 

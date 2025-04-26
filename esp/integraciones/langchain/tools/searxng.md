@@ -31,4 +31,4 @@ Usa `docker-compose up -d` para iniciar el contenedor. Abre el navegador web y v
 
 Arrastra y suelta el nodo SearXNG en el canvas. Completa la Base URL como **http://localhost:8080.** También puedes especificar otros parámetros de búsqueda si es necesario. El LLM determinará automáticamente qué usar para la pregunta de consulta de búsqueda.
 
-<figure><img src="../../../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--171-.png" alt=""><figcaption></figcaption></figure>

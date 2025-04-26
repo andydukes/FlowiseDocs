@@ -12,19 +12,19 @@ In this section, we are going to create a Droplet. For more information, refer t
 
 1. First, Click **Droplets** from the dropdown
 
-<figure><img src="../../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--15---2-.png" alt=""><figcaption></figcaption></figure>
 
 2. Select Data Region and a Basic $6/mo Droplet type
 
-<figure><img src="../../.gitbook/assets/image (17) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--17---1---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 3. Select Authentication Method. In this example, we are going to use Password
 
-<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--5---2-.png" alt=""><figcaption></figcaption></figure>
 
 4. After a while you should be able to see your droplet created successfully
 
-<figure><img src="../../.gitbook/assets/image (7) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--7---2---1-.png" alt=""><figcaption></figcaption></figure>
 
 ## How to Connect to your Droplet
 
@@ -72,7 +72,7 @@ cd Flowise && cd docker
 nano .env
 ```
 
-<figure><img src="../../.gitbook/assets/image (10) (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--10---2-.png" alt="" width="375"><figcaption></figcaption></figure>
 
 4. Specify the env variables:
 
@@ -202,7 +202,7 @@ sudo systemctl restart nginx
 
 7. Go to your DNS provider, and add a new A record. Name will be your domain name, and value will be the Public IPv4 address from your droplet
 
-<figure><img src="../../.gitbook/assets/image (3) (2).png" alt="" width="367"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--3---2-.png" alt="" width="367"><figcaption></figcaption></figure>
 
 Nginx is now configured as a reverse proxy for your application server. You should now be able to open the app: http://yourdomain.com.
 

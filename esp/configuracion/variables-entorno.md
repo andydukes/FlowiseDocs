@@ -66,15 +66,15 @@ TOOL_FUNCTION_EXTERNAL_DEP=axios,moment
 
 `DEBUG`: si se establece en true, imprimirá logs en la terminal/consola:
 
-<figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--3---3-.png" alt=""><figcaption></figcaption></figure>
 
 `LOG_LEVEL`: Diferentes niveles de log para los loggers que se guardarán. Puede ser `error`, `info`, `verbose`, o `debug`. Por defecto está establecido en `info`, solo `logger.info` se guardará en los archivos de log. Si quieres tener detalles completos, establécelo en `debug`.
 
-<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption><p><strong>server-requests.log.jsonl - registra cada request enviada a Flowise</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--2---4-.png" alt=""><figcaption><p><strong>server-requests.log.jsonl - registra cada request enviada a Flowise</strong></p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><strong>server.log - registra acciones generales en Flowise</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--4---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt=""><figcaption><p><strong>server.log - registra acciones generales en Flowise</strong></p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5) (4).png" alt=""><figcaption><p><strong>server-error.log - registra errores con stack trace</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--5---4-.png" alt=""><figcaption><p><strong>server-error.log - registra errores con stack trace</strong></p></figcaption></figure>
 
 ## Para Credentials
 
@@ -91,7 +91,7 @@ Por algunas razones, a veces la encryption key podría regenerarse o la ruta alm
 
 Para evitar esto, puedes establecer tu propia encryption key como `FLOWISE_SECRETKEY_OVERWRITE`, así la misma encryption key se usará cada vez. No hay restricción en el formato, puedes establecerla como cualquier texto que desees, o la misma que tu `FLOWISE_PASSWORD`.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 La Credential API Key devuelta desde la UI no tiene la misma longitud que tu Api Key original que has establecido. Este es un prefijo de cadena falso que previene el spoofing de red, por eso no devolvemos la Api Key a la UI. Sin embargo, la Api Key correcta será recuperada y usada durante tu interacción con el chatflow.

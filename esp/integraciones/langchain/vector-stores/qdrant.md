@@ -49,7 +49,7 @@ Entonces, quieres filtrar por este valor. Qdrant soporta la siguiente [sintaxis]
 
 **UI**
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (2) (1) (1) (1).png" alt="" width="338"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--1---1---1---1---1---1---1---2---1---1---1-.png" alt="" width="338"><figcaption></figcaption></figure>
 
 **API**
 

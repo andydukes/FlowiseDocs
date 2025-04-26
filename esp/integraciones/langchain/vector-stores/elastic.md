@@ -51,17 +51,17 @@
 
 4. Después de que la credencial se haya creado exitosamente, puedes comenzar a hacer upsert de los datos
 
-<figure><img src="../../../.gitbook/assets/Untitled (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Untitled--1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/elastic13.png" alt=""><figcaption></figcaption></figure>
 
 5. Después de que los datos se hayan insertado exitosamente, puedes verificarlo desde el dashboard de Elastic:
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--7---1---1---1---1---1---2---1-.png" alt=""><figcaption></figcaption></figure>
 
 6. ¡Voilà! Ahora puedes comenzar a hacer preguntas en el chat
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--6---1---1---1---1---1---1---2---1-.png" alt=""><figcaption></figcaption></figure>
 
 ## Recursos
 

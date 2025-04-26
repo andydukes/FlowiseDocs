@@ -51,17 +51,17 @@
 
 4. After credential has been created successfully, you can start upserting the data
 
-<figure><img src="../../../.gitbook/assets/Untitled (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Untitled--1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/elastic13.png" alt=""><figcaption></figcaption></figure>
 
 5. After data has been upserted successfully, you can verify it from Elastic dashboard:
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--7---1---1---1---1---1---2---1-.png" alt=""><figcaption></figcaption></figure>
 
 6. Voila! You can now start asking question in the chat
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--6---1---1---1---1---1---1---2---1-.png" alt=""><figcaption></figcaption></figure>
 
 ## Resources
 

@@ -87,7 +87,7 @@ Por lo tanto, al introducir chunk overlap durante la fase de división de texto,
 Entonces, para optimizar aún más el equilibrio entre precisión de recuperación y costo, se pueden usar dos estrategias principales:
 
 1. **Aumentar/Disminuir Chunk Overlap:** Ajustar el porcentaje de overlap durante la división de texto permite un control fino sobre la cantidad de contexto compartido entre chunks. Porcentajes de overlap más altos generalmente llevan a una mejor preservación del contexto pero también pueden aumentar los costos ya que necesitarías usar más chunks para abarcar todo el documento. Por el contrario, porcentajes de overlap más bajos pueden reducir costos pero arriesgan perder información contextual clave entre chunks, potencialmente llevando a respuestas menos precisas o incompletas del LLM.
-2. **Aumentar/Disminuir Top K:** Elevar el valor top K por defecto (4) expande el número de chunks considerados para la generación de respuestas. Si bien esto puede mejorar la precisión, también aumenta el costo.
+2. **Aumentar/Disminuir Top K:** Elevar el valor top K por defecto--4- expande el número de chunks considerados para la generación de respuestas. Si bien esto puede mejorar la precisión, también aumenta el costo.
 
 {% hint style="info" %}
 **Consejo:** La elección de valores óptimos de **overlap** y **top K** depende de factores como la complejidad del documento, características del modelo de embedding y el balance deseado entre precisión y costo. La experimentación con estos valores es importante para encontrar la configuración ideal para una necesidad específica.

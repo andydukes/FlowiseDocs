@@ -18,11 +18,11 @@ Después de instalar Prometheus, ejecútalo usando un archivo de configuración.
 
 Recuerda tener la instancia de Flowise también en ejecución. Puedes abrir el navegador y navegar al puerto 9090. Desde el panel de control, deberías poder ver que el punto final de métricas - `/api/v1/metrics` está activo.
 
-<figure><img src="../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--178-.png" alt=""><figcaption></figcaption></figure>
 
 Por defecto, `/api/v1/metrics` está disponible para que Prometheus extraiga las métricas.
 
-<figure><img src="../.gitbook/assets/image (177).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--177-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Grafana
 
@@ -32,23 +32,23 @@ Grafana se puede instalar de varias maneras. Consulta la [guía](https://grafana
 
 Grafana por defecto expondrá el puerto 9091:
 
-<figure><img src="../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--179-.png" alt=""><figcaption></figcaption></figure>
 
 En la barra lateral izquierda, haz clic en Agregar nueva conexión y selecciona Prometheus:
 
-<figure><img src="../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--180-.png" alt=""><figcaption></figcaption></figure>
 
 Ya que nuestro Prometheus está sirviendo en el puerto 9090:
 
-<figure><img src="../.gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--181-.png" alt=""><figcaption></figcaption></figure>
 
 Desplázate hasta el final y prueba la conexión:
 
-<figure><img src="../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--182-.png" alt=""><figcaption></figcaption></figure>
 
 Toma nota del ID de la fuente de datos mostrado en la barra de herramientas, lo necesitaremos para crear paneles:
 
-<figure><img src="../.gitbook/assets/image (184).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--184-.png" alt=""><figcaption></figcaption></figure>
 
 Ahora que la conexión se ha agregado exitosamente, podemos comenzar a agregar paneles. Desde la barra lateral izquierda, haz clic en Paneles y Crear Panel.
 
@@ -59,17 +59,17 @@ Flowise proporciona 2 plantillas de paneles:
 
 Si estás usando las plantillas anteriores, encuentra y reemplaza todas las ocurrencias de `cds4j1ybfuhogb` con el ID de la fuente de datos que creaste y guardaste anteriormente.
 
-<figure><img src="../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--183-.png" alt=""><figcaption></figcaption></figure>
 
 También puedes elegir importar primero y luego editar el JSON más tarde:
 
-<figure><img src="../.gitbook/assets/image (185).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--185-.png" alt=""><figcaption></figcaption></figure>
 
 Ahora, intenta realizar algunas acciones en Flowise, deberías poder ver las métricas mostradas:
 
-<figure><img src="../.gitbook/assets/image (186).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--186-.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (187).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--187-.png" alt=""><figcaption></figcaption></figure>
 
 ## OpenTelemetry
 

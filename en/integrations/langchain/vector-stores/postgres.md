@@ -6,7 +6,7 @@ description: >-
 
 # Postgres
 
-<figure><img src="../../../.gitbook/assets/image (163).png" alt="" width="292"><figcaption><p>Postgres Node</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--163-.png" alt="" width="292"><figcaption><p>Postgres Node</p></figcaption></figure>
 
 There are multiple methods to connect to Postgres based on how your instance is set up. Below is an example of a local configuration using a prebuilt Docker image provided by the pgvector team.
 
@@ -35,7 +35,7 @@ services:
 
 Create new credential with the configured user and password:
 
-<figure><img src="../../../.gitbook/assets/image (50).png" alt="" width="526"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--50-.png" alt="" width="526"><figcaption></figcaption></figure>
 
 Fill in the node's field with values configured in `docker-compose.yml`. For example:
 

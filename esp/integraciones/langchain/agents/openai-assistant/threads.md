@@ -30,4 +30,4 @@ También puedes filtrar por **`chatId`** - `/api/v1/chatmessage/{your-chatflowid
 
 Todas las conversaciones pueden ser visualizadas y gestionadas desde la UI también:
 
-<figure><img src="../../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image--77-.png" alt=""><figcaption></figcaption></figure>

@@ -28,7 +28,7 @@ wget https://gpt4all.io/models/ggml-gpt4all-j.bin -O models/ggml-gpt4all-j
 
 En la carpeta `/models`, deberías poder ver el modelo descargado:
 
-<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--22---1-.png" alt=""><figcaption></figcaption></figure>
 
 Consulta [aquí](https://localai.io/model-compatibility/index.html) la lista de modelos soportados.
 
@@ -47,7 +47,7 @@ curl http://localhost:8080/v1/models
 
 Arrastra y suelta un nuevo componente ChatLocalAI al lienzo:
 
-<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--39-.png" alt=""><figcaption></figcaption></figure>
 
 Completa los campos:
 

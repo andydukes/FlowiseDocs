@@ -14,13 +14,13 @@ En casos donde quieras permitir que solo ciertas personas puedan acceder e inter
 
 En el dashboard, navega a la sección API Keys, y deberías poder ver una DefaultKey creada. También puedes add o delete cualquier key.
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--6---1---1---1---1---1---1---1---1---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 ## Chatflow
 
 Navigate al chatflow, y ahora puedes seleccionar la API Key que quieres usar para proteger el chatflow.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--3---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 Después de asignar una API key, solo se puede acceder al chatflow API cuando se proporciona el Authorization header con la API key correcta especificada durante una HTTP call.
 
@@ -30,6 +30,6 @@ Después de asignar una API key, solo se puede acceder al chatflow API cuando se
 
 Un ejemplo de llamar al API usando POSTMAN
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 Puedes especificar la location donde se almacenan las api keys usando las environment variables `APIKEY_PATH`. Lee más en [environment-variables.md](../environment-variables.md "mention")

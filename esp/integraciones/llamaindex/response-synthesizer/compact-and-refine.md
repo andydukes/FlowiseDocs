@@ -8,7 +8,7 @@ Compacta el prompt durante cada llamada al LLM agrupando tantos fragmentos de te
 
 **Contras**: Debido a las múltiples llamadas al LLM, puede ser costoso
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--6---1---1---1---2-.png" alt=""><figcaption></figcaption></figure>
 
 **Prompt de Refinamiento**
 
