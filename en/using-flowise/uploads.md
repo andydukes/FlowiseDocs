@@ -26,7 +26,7 @@ Image processing only works with certain chains/agents in Chatflow.
 
 If you enable **Allow Image Upload**, you can upload images from the chat interface.
 
-<div align="center"><figure><img src="../.gitbook/assets/image--1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="255"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-02-29 011714.png" alt="" width="290"><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../.gitbook/assets/image--1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="255"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot-2024-02-29-011714.png" alt="" width="290"><figcaption></figcaption></figure></div>
 
 To upload images with the API:
 
@@ -98,7 +98,7 @@ In the Chatflow Configuration, you can select a speech-to-text module. Supported
 
 When this is enabled, users can speak directly into the microphone. Their speech is be transcribed into text.
 
-<div align="left"><figure><img src="../.gitbook/assets/image--2---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-02-29 012538.png" alt="" width="431"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image--2---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot-2024-02-29-012538.png" alt="" width="431"><figcaption></figcaption></figure></div>
 
 To upload audio with the API:
 
@@ -192,7 +192,7 @@ You can upsert uploaded files on the fly to the vector store. To enable file upl
 
 You can upload one or more files in the chat:
 
-<div align="left"><figure><img src="../.gitbook/assets/image--3---1---1---1-.png" alt="" width="380"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-08-26 170456.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image--3---1---1---1-.png" alt="" width="380"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot-2024-08-26-170456.png" alt=""><figcaption></figcaption></figure></div>
 
 Here's how it works:
 

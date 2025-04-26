@@ -81,7 +81,7 @@ _Note: If you already have a container running with the selected model, Flowise 
 
 2. If you are using NVIDIA hosted endpoint, you must have your API key. **Connect Credential** > click **Create New.** However if you are using local setup, this is optional.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image--251-.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Screenshot 2024-12-23 180712.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image--251-.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Screenshot-2024-12-23-180712.png" alt=""><figcaption></figcaption></figure></div>
 
 3. Put in the model name and voila [🎉](https://emojipedia.org/party-popper/), your **Chat NVIDIA NIM node** is now ready to be used in Flowise!
 

@@ -37,11 +37,11 @@ Supongamos que tienes diferentes documentos insertados, cada uno especificado co
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-03-05 141551.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot-2024-03-05-141551.png" alt="" width="563"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-03-05 141619.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot-2024-03-05-141619.png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 

@@ -140,7 +140,7 @@ Output:
 ```bash
 ● nginx.service - A high performance web server and a reverse proxy server
      Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
-     Active: active (running) since Mon 2022-08-29 06:52:46 UTC; 39min ago
+     Active: active (running) since Mon 2022-08-29-06:52:46 UTC; 39min ago
        Docs: man:nginx(8)
    Main PID: 9919 (nginx)
       Tasks: 2 (limit: 2327)

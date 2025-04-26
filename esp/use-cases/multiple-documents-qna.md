@@ -123,7 +123,7 @@ Aquí es donde entra en juego Metadata Retriever. La idea es que el LLM extraiga
 
 Por ejemplo, si un usuario está haciendo preguntas relacionadas con Apple, un filtro de metadata `{source: apple}` se aplicará automáticamente en la búsqueda de la base de datos vectorial.
 
-<div align="left"><figure><img src="../.gitbook/assets/image--235-.png" alt="" width="297"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-11-29 155926.png" alt="" width="526"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image--235-.png" alt="" width="297"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot-2024-11-29-155926.png" alt="" width="526"><figcaption></figcaption></figure></div>
 
 En este escenario, podemos tener una sola retriever tool, y colocar el **Metadata Retriever** entre la base de datos vectorial y la retriever tool.
 

@@ -23,7 +23,7 @@
 
 2. Si estás usando un endpoint alojado en Nvdia, debes tener tu API key. **Connect Credential** > haz clic en **Create New**. Sin embargo, si estás usando una configuración local, esto es opcional.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image--251-.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Screenshot 2024-12-23 180712.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image--251-.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Screenshot-2024-12-23-180712.png" alt=""><figcaption></figcaption></figure></div>
 
 3. Ingresa el nombre del modelo y ¡voilà [🎉](https://emojipedia.org/party-popper/), tu **nodo Nvdia NIM** está listo para ser usado en Flowise!
 
