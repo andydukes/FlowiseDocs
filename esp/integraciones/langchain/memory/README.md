@@ -54,7 +54,7 @@ Puedes separar las conversaciones para múltiples usuarios especificando un **`s
 
 <figure><img src="../../../.gitbook/assets/image (76).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Untitled (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Untitled--1---1---1---1---1-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. En el cuerpo de la solicitud POST `/api/v1/prediction/{your-chatflowid}`, especifica el **`sessionId`** en **`overrideConfig`**
 
