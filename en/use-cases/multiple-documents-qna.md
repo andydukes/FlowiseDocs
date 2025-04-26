@@ -123,7 +123,7 @@ Metadata Retriever comes into play. The idea is to have LLM extract the metadata
 
 For example, if a user is asking questions related to Apple, a metadata filter `{source: apple}` will be automatically applied on vector database search.
 
-<div align="left"><figure><img src="../.gitbook/assets/image--235-.png" alt="" width="297"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-11-29 155926.png" alt="" width="526"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image--235-.png" alt="" width="297"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot-2024-11-29-155926.png" alt="" width="526"><figcaption></figcaption></figure></div>
 
 In this scenario, we can have a single retriever tool, and place the **Metadata Retriever** between vector database and retriever tool.
 

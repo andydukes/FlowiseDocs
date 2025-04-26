@@ -26,7 +26,7 @@ El procesamiento de imágenes solo funciona con ciertas cadenas/agentes en Chatf
 
 Si habilitas **Allow Image Upload**, podrás subir imágenes desde la interfaz de chat.
 
-<div align="center"><figure><img src="../.gitbook/assets/image--1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="255"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-02-29 011714.png" alt="" width="290"><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../.gitbook/assets/image--1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="255"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot-2024-02-29-011714.png" alt="" width="290"><figcaption></figcaption></figure></div>
 
 Para subir imágenes con la API:
 
@@ -98,7 +98,7 @@ En la Configuración del Chatflow, puedes seleccionar un módulo de speech-to-te
 
 Cuando esto está habilitado, los usuarios pueden hablar directamente al micrófono. Su voz se transcribe a texto.
 
-<div align="left"><figure><img src="../.gitbook/assets/image--2---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-02-29 012538.png" alt="" width="431"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image--2---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot-2024-02-29-012538.png" alt="" width="431"><figcaption></figcaption></figure></div>
 
 Para subir audio con la API:
 
@@ -192,7 +192,7 @@ Puedes hacer upsert de los archivos subidos al vector store sobre la marcha. Par
 
 Puedes subir uno o más archivos en el chat:
 
-<div align="left"><figure><img src="../.gitbook/assets/image--3---1---1---1-.png" alt="" width="380"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-08-26 170456.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image--3---1---1---1-.png" alt="" width="380"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot-2024-08-26-170456.png" alt=""><figcaption></figcaption></figure></div>
 
 Así es como funciona:
 

@@ -366,7 +366,7 @@ query({
 
 Cuando **Allow Image Upload** está habilitado, las imágenes pueden ser cargadas desde la interfaz de chat.
 
-<div align="left" data-full-width="false"><figure><img src="../.gitbook/assets/image--1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="255"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-02-29 011714.png" alt="" width="290"><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../.gitbook/assets/image--1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="255"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot-2024-02-29-011714.png" alt="" width="290"><figcaption></figcaption></figure></div>
 
 {% tabs %}
 {% tab title="Python API" %}
@@ -430,7 +430,7 @@ query({
 
 Cuando **Speech to Text** está habilitado, los usuarios pueden hablar directamente en el micrófono y la voz se transcribirá en texto.
 
-<div align="left"><figure><img src="../.gitbook/assets/image--2---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-02-29 012538.png" alt="" width="431"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image--2---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot-2024-02-29-012538.png" alt="" width="431"><figcaption></figcaption></figure></div>
 
 {% tabs %}
 {% tab title="Python API" %}
