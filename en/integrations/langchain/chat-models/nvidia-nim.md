@@ -63,29 +63,29 @@ _Note: If you already have a container running with the selected model, Flowise 
 1. Log in or sign up to [NVIDIA](https://build.nvidia.com/).
 2. From the top navigation bar, click NIM:
 
-<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--247-.png" alt=""><figcaption></figcaption></figure>
 
 3. Search for the model you would like to use. To download it locally, we will be using Docker:
 
-<figure><img src="../../../.gitbook/assets/image (248).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--248-.png" alt=""><figcaption></figcaption></figure>
 
 4. Follow the instructions from the Docker setup. You must first get an API Key to pull the Docker image:
 
-<figure><img src="../../../.gitbook/assets/image (249).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--249-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Flowise
 
 1. **Chat Models** > drag **Chat NVIDIA NIM** node
 
-<figure><img src="../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--250-.png" alt=""><figcaption></figcaption></figure>
 
 2. If you are using NVIDIA hosted endpoint, you must have your API key. **Connect Credential** > click **Create New.** However if you are using local setup, this is optional.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Screenshot 2024-12-23 180712.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image--251-.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Screenshot 2024-12-23 180712.png" alt=""><figcaption></figcaption></figure></div>
 
 3. Put in the model name and voila [🎉](https://emojipedia.org/party-popper/), your **Chat NVIDIA NIM node** is now ready to be used in Flowise!
 
-<figure><img src="../../../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--252-.png" alt=""><figcaption></figcaption></figure>
 
 ### Resources
 

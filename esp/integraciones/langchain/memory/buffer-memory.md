@@ -2,7 +2,7 @@
 
 Usa la tabla de base de datos `chat_message` de Flowise como mecanismo de almacenamiento para guardar/recuperar conversaciones.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (3).png" alt="" width="299"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--1---1---3-.png" alt="" width="299"><figcaption></figcaption></figure>
 
 ## Entrada
 

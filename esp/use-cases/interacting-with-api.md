@@ -148,7 +148,7 @@ La OpenAPI Specification (OAS) define una interfaz estándar e independiente del
 
 2. Puedes usar un [conversor de JSON a YAML](https://jsonformatter.org/json-to-yaml) y guardarlo como archivo `.yaml`, y subirlo a **OpenAPI Chain**, luego probar haciendo algunas preguntas. **OpenAPI Chain** enviará todas las especificaciones al LLM, y hará que el LLM use automáticamente el método y los parámetros correctos para la llamada a la API.
 
-<figure><img src="../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--133-.png" alt=""><figcaption></figcaption></figure>
 
 3. Sin embargo, si quieres tener una conversación normal, no podrá hacerlo. Verás el siguiente error. Esto es porque OpenAPI Chain tiene el siguiente prompt:
 
@@ -158,7 +158,7 @@ Use the provided API's to respond to this user query
 
 Como lo "forzamos" a siempre encontrar la API para responder la consulta del usuario, en los casos de conversación normal que no son relevantes para la OpenAPI, falla al hacerlo.
 
-<figure><img src="../.gitbook/assets/image (134).png" alt="" width="361"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--134-.png" alt="" width="361"><figcaption></figcaption></figure>
 
 Usar este método podría no funcionar bien si tienes una especificación OpenAPI grande. Esto es porque estamos incluyendo todas las especificaciones como parte del mensaje enviado al LLM. Luego dependemos del LLM para determinar la URL correcta, los parámetros de consulta, el cuerpo de la solicitud y otros parámetros necesarios para responder la consulta del usuario. Como puedes imaginar, si tus especificaciones OpenAPI son complicadas, hay una mayor probabilidad de que el LLM alucine.
 
@@ -170,15 +170,15 @@ OpenAPI Toolkit convertirá cada una de las APIs del archivo YAML en un conjunto
 
 1. Conecta **ToolAgent** con **OpenAPI Toolkit**. Aquí, subimos la especificación YAML para la API de OpenAI. El archivo de especificaciones se puede encontrar al final de la página.
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--25-.png" alt=""><figcaption></figcaption></figure>
 
 2. ¡Vamos a probarlo!
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--1---1---1---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 Como puedes notar en el chat, el agent es capaz de mantener una conversación normal y usar la tool apropiada para responder la consulta del usuario. Si estás usando Analytic Tool, puedes ver la lista de tools que convertimos del archivo YAML:
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--2---1---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 ## Conclusión
 

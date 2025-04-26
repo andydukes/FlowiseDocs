@@ -17,11 +17,11 @@ This tutorial walks you through creating a custom tool in FlowiseAI that calls a
 
 3. From the **Webhook** module, copy the webhook URL:
 
-   <figure><img src="../.gitbook/assets/image (46).png" alt="Webhook URL" width="563"><figcaption></figcaption></figure>
+   <figure><img src="../.gitbook/assets/image--46-.png" alt="Webhook URL" width="563"><figcaption></figcaption></figure>
 
 4. In the **Discord** module, configure it to pass the `message` from the webhook body as the message sent to the Discord channel:
 
-   <figure><img src="../.gitbook/assets/image (47).png" alt="Discord module setup" width="563"><figcaption></figcaption></figure>
+   <figure><img src="../.gitbook/assets/image--47-.png" alt="Discord module setup" width="563"><figcaption></figcaption></figure>
 
 5. Click **Run Once** to start listening for incoming requests.
 6. Send a test POST request with the following JSON body:
@@ -32,11 +32,11 @@ This tutorial walks you through creating a custom tool in FlowiseAI that calls a
    }
    ```
 
-   <figure><img src="../.gitbook/assets/image (48).png" alt="Sending POST request" width="563"><figcaption></figcaption></figure>
+   <figure><img src="../.gitbook/assets/image--48-.png" alt="Sending POST request" width="563"><figcaption></figcaption></figure>
 
 7. If successful, you will see the message appear in your Discord channel:
 
-   <figure><img src="../.gitbook/assets/image (49).png" alt="Discord message" width="249"><figcaption></figcaption></figure>
+   <figure><img src="../.gitbook/assets/image--49-.png" alt="Discord message" width="249"><figcaption></figcaption></figure>
 
 Congratulations! You have successfully set up a webhook workflow that sends messages to Discord. 🎉
 
@@ -61,7 +61,7 @@ Next, we will create a custom tool in FlowiseAI to send webhook requests.
 
 4. Define the **Input Schema**:
 
-   <figure><img src="../.gitbook/assets/image (167).png" alt="Input schema example"><figcaption></figcaption></figure>
+   <figure><img src="../.gitbook/assets/image--167-.png" alt="Input schema example"><figcaption></figcaption></figure>
 
 ### Step 2: Add Webhook Request Logic
 
@@ -92,7 +92,7 @@ try {
 
 5. Click **Add** to save your custom tool.
 
-   <figure><img src="../.gitbook/assets/image (51).png" alt="Tool added confirmation" width="279"><figcaption></figcaption></figure>
+   <figure><img src="../.gitbook/assets/image--51-.png" alt="Tool added confirmation" width="279"><figcaption></figcaption></figure>
 
 ### Step 3: Build a Chatflow with Webhook Integration
 
@@ -116,11 +116,11 @@ Try asking the chatbot a question like:
 
 Then, request the agent to send this information to Discord:
 
-   <figure><img src="../.gitbook/assets/image (53).png" alt="Sending message via agent" width="563"><figcaption></figcaption></figure>
+   <figure><img src="../.gitbook/assets/image--53-.png" alt="Sending message via agent" width="563"><figcaption></figcaption></figure>
 
 You should see the message appear in your Discord channel:
 
-   <figure><img src="../.gitbook/assets/image (54).png" alt="Final message in Discord"><figcaption></figcaption></figure>
+   <figure><img src="../.gitbook/assets/image--54-.png" alt="Final message in Discord"><figcaption></figcaption></figure>
 
 ### Alternative Webhook Testing Tools
 

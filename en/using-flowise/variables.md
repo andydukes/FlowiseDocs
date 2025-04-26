@@ -12,19 +12,19 @@ Flowise allow users to create variables that can be used in the nodes. Variables
 
 Static variable will be saved with the value specified, and retrieved as it is.
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1) (1).png" alt="" width="542"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--13---1---1---1-.png" alt="" width="542"><figcaption></figcaption></figure>
 
 ### Runtime
 
 Value of the variable will be fetched from **.env** file using `process.env`
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="537"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="537"><figcaption></figcaption></figure>
 
 ### Override or setting variable through API
 
 In order to override variable value, user must explicitly enable it from **Chatflow Configuration** -> **Security** tab:
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--1---1-.png" alt=""><figcaption></figcaption></figure>
 
 If there is an existing variable created, variable value provided in the API will override the existing value.
 
@@ -43,7 +43,7 @@ If there is an existing variable created, variable value provided in the API wil
 
 Variables can be used by the nodes in Flowise. For instance, a variable named **`character`** is created:
 
-<figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--96-.png" alt=""><figcaption></figcaption></figure>
 
 We can then use this variable as **`$vars.<variable-name>`** in the Function of the following nodes:
 
@@ -52,7 +52,7 @@ We can then use this variable as **`$vars.<variable-name>`** in the Function of 
 * [Custom Loader](../integrations/langchain/document-loaders/custom-document-loader.md)
 * [If Else](../integrations/utilities/if-else.md)
 
-<figure><img src="../.gitbook/assets/image (105).png" alt="" width="283"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--105-.png" alt="" width="283"><figcaption></figcaption></figure>
 
 Besides, user can also use the variable in text input of any node with the following format:
 
@@ -60,11 +60,11 @@ Besides, user can also use the variable in text input of any node with the follo
 
 For example, in Agent System Message:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (2) (1).png" alt="" width="508"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--1---1---1---2---1-.png" alt="" width="508"><figcaption></figcaption></figure>
 
 In Prompt Template:
 
-<figure><img src="../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--157-.png" alt=""><figcaption></figcaption></figure>
 
 ## Resources
 

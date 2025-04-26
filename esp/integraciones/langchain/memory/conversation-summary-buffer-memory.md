@@ -4,7 +4,7 @@ Usa la tabla de base de datos `chat_message` de Flowise como mecanismo de almace
 
 Esta memoria mantiene un buffer de interacciones recientes y compila las antiguas en un resumen, usando ambas en su almacenamiento. En lugar de eliminar las interacciones antiguas basándose únicamente en su número, ahora considera la longitud total de tokens para decidir cuándo eliminarlas.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (2).png" alt="" width="297"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--4---1---2-.png" alt="" width="297"><figcaption></figcaption></figure>
 
 ## Entrada
 

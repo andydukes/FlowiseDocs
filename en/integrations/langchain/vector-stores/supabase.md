@@ -5,7 +5,7 @@
 1. Register an account for [Supabase](https://supabase.com/)
 2. Click **New project**
 
-<figure><img src="../../../.gitbook/assets/image (8) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--8---2---1-.png" alt=""><figcaption></figcaption></figure>
 
 3. Input required fields
 
@@ -14,16 +14,16 @@
 | **Name**                  | name of the project to be created. (e.g. Flowise) |
 | **Database** **Password** | password to your postgres database                |
 
-<figure><img src="../../../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--25---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 4. Click **Create new project** and wait for the project to finish setting up
 5. Click **SQL Editor**
 
-<figure><img src="../../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--7---2-.png" alt=""><figcaption></figcaption></figure>
 
 6. Click **New query**
 
-<figure><img src="../../../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--36---1-.png" alt=""><figcaption></figcaption></figure>
 
 7. Copy and Paste the below SQL query and run it by `Ctrl + Enter` or click **RUN**. Take note of the table name and function name.
 
@@ -116,21 +116,21 @@ $$;
 
 ```
 
-<figure><img src="../../../.gitbook/assets/image (19) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--19---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 ## Setup
 
 1. Click **Project Settings**
 
-<figure><img src="../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--30---1-.png" alt=""><figcaption></figcaption></figure>
 
 2. Get your **Project URL & API Key**
 
-<figure><img src="../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--2---3-.png" alt=""><figcaption></figcaption></figure>
 
 3. Copy and Paste each details (_API Key, URL, Table Name, Query Name_) into **Supabase** node
 
-<figure><img src="../../../.gitbook/assets/image (85).png" alt="" width="331"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--85-.png" alt="" width="331"><figcaption></figcaption></figure>
 
 4. **Document** can be connected with any node under [**Document Loader**](../document-loaders/) category
 5. **Embeddings** can be connected with any node under [**Embeddings** ](../embeddings/)category
@@ -145,7 +145,7 @@ You can use metadata filtering to query specific metadata:
 
 **UI**
 
-<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (2) (1).png" alt="" width="232"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--9---1---1---1---1---2---1-.png" alt="" width="232"><figcaption></figcaption></figure>
 
 **API**
 

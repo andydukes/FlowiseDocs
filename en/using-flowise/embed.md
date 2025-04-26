@@ -8,7 +8,7 @@ description: Learn how to customize and embed our chat widget
 
 You can easily add the chat widget to your website. Just copy the provided widget script and paste it anywhere between the `<body>` and  `</body>`  tags of your HTML file.
 
-<figure><img src="../.gitbook/assets/image (8) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--8---2---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 ## Widget Setup
 
@@ -222,7 +222,7 @@ Replace `username` to your Github username, and `forked-repo` to your forked rep
 &#x3C;/script>
 </code></pre>
 
-<figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--1---1---2-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ```html
 <script type="module">

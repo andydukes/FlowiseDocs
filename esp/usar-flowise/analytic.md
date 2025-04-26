@@ -35,11 +35,11 @@ Lee más sobre cómo configurar Lunary con Flowise [aquí](https://lunary.ai/doc
 
 3. Verás una lista de proveedores, junto con sus campos de configuración
 
-<figure><img src="../.gitbook/assets/image (82).png" alt="Captura de pantalla de un proveedor de analítica con campos de credenciales expandidos"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--82-.png" alt="Captura de pantalla de un proveedor de analítica con campos de credenciales expandidos"><figcaption></figcaption></figure>
 
 3. Completa las credenciales y otros detalles de configuración, luego activa el proveedor en **ON**
 
-<figure><img src="../.gitbook/assets/image (83).png" alt="Captura de pantalla de proveedores de analítica habilitados"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--83-.png" alt="Captura de pantalla de proveedores de analítica habilitados"><figcaption></figcaption></figure>
 
 ## API
 

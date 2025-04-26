@@ -22,19 +22,19 @@ Puedes lograr esto usando las siguientes tools:
 
 1. Ten un chatflow listo. En este caso, creamos un chatflow Chain of Thought que puede pasar por múltiples encadenamientos.
 
-<figure><img src="../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--169-.png" alt=""><figcaption></figcaption></figure>
 
 2. Crea otro chatflow con Tool Agent + Chatflow Tool. Selecciona el chatflow que quieres llamar desde la tool. En este caso, fue el chatflow Chain of Thought. Dale un nombre y una descripción apropiada para que el LLM sepa cuándo usar esta tool:
 
-<figure><img src="../.gitbook/assets/image (35).png" alt="" width="245"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--35-.png" alt="" width="245"><figcaption></figcaption></figure>
 
 3. ¡Pruébalo!
 
-<figure><img src="../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--168-.png" alt=""><figcaption></figcaption></figure>
 
 4. En la respuesta, puedes ver la entrada y salida del Chatflow Tool:
 
-<figure><img src="../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--170-.png" alt=""><figcaption></figcaption></figure>
 
 ## Custom Tool
 
@@ -48,7 +48,7 @@ Input Schema:
 
 <table><thead><tr><th>Property</th><th>Type</th><th>Description</th><th data-type="checkbox">Required</th></tr></thead><tbody><tr><td>input</td><td>string</td><td>pregunta de entrada</td><td>true</td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/image (95) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--95---1-.png" alt=""><figcaption></figcaption></figure>
 
 Función Javascript de la tool:
 
@@ -80,11 +80,11 @@ try {
 
 2. Crea un Tool Agent + Custom Tool. Especifica la tool que hemos creado en el Paso 1 en el Custom Tool.
 
-<figure><img src="../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--97-.png" alt=""><figcaption></figcaption></figure>
 
 3. En la respuesta, puedes ver la entrada y salida del Custom Tool:
 
-<figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--99-.png" alt=""><figcaption></figcaption></figure>
 
 ## Conclusión
 

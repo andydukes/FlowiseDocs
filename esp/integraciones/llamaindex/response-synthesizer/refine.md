@@ -6,7 +6,7 @@ Crea y refina una respuesta pasando secuencialmente por cada fragmento de texto 
 
 **Contras**: Llamada separada al LLM por cada Nodo (puede ser costoso)
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--5---1---1---1---1---2---1-.png" alt=""><figcaption></figcaption></figure>
 
 **Prompt de Refinamiento**
 

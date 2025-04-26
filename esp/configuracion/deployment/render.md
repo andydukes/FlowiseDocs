@@ -50,7 +50,7 @@ description: Learn how to deploy Flowise on Render
 * SECRETKEY_PATH - `/opt/render/.flowise`
 * BLOB_STORAGE_PATH - `/opt/render/.flowise/storage`
 
-<figure><img src="../../.gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--1---5-.png" alt=""><figcaption></figcaption></figure>
 
 11. Haz click en **Manual Deploy** y luego selecciona **Clear build cache & deploy**
 

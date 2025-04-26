@@ -122,4 +122,4 @@ SHOW_COMMUNITY_NODES=true
 
 ¡Ahora podemos usar `pnpm build` y `pnpm start` para dar vida al componente!
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--1---1---1---2-.png" alt=""><figcaption></figcaption></figure>

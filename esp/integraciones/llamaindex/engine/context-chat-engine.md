@@ -2,7 +2,7 @@
 
 Un chat engine sirve como un pipeline de extremo a extremo para mantener una conversación similar a la humana con tus datos, permitiendo múltiples intercambios en lugar de una única interacción de pregunta y respuesta.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--3---1---1---1---1---1---1---2---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 ## Entradas
 

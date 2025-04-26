@@ -16,11 +16,11 @@ Dirígete a Make.com, después de registrar una cuenta, crea un flujo de trabajo
 
 Desde el módulo Webhook, deberías poder ver una URL webhook:
 
-<figure><img src="../.gitbook/assets/image (46).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--46-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Desde el módulo Discord, estamos pasando el cuerpo `message` del Webhook como el mensaje para enviar al canal de Discord:
 
-<figure><img src="../.gitbook/assets/image (47).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--47-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Para probarlo, puedes hacer clic en Run once en la esquina inferior izquierda y enviar una solicitud POST con un cuerpo JSON
 
@@ -30,11 +30,11 @@ Para probarlo, puedes hacer clic en Run once en la esquina inferior izquierda y 
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (48).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--48-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Podrás ver un mensaje de Discord enviado al canal:
 
-<figure><img src="../.gitbook/assets/image (49).png" alt="" width="249"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--49-.png" alt="" width="249"><figcaption></figcaption></figure>
 
 ¡Perfecto! Hemos configurado exitosamente un flujo de trabajo que puede pasar un mensaje y enviarlo al canal de Discord [🎉 ](https://emojiterra.com/party-popper/)[🎉](https://emojiterra.com/party-popper/)
 
@@ -53,7 +53,7 @@ Luego podemos llenar los siguientes campos (siéntete libre de cambiarlos según
 * **Tool Icon Src**: [https://github.com/FlowiseAI/Flowise/assets/26460777/517fdab2-8a6e-4781-b3c8-fb92cc78aa0b](https://github.com/FlowiseAI/Flowise/assets/26460777/517fdab2-8a6e-4781-b3c8-fb92cc78aa0b)
 * **Input Schema**:
 
-<figure><img src="../.gitbook/assets/image (167).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--167-.png" alt=""><figcaption></figcaption></figure>
 
 * **JavaScript Function**:
 
@@ -82,7 +82,7 @@ try {
 
 Haz clic en **Add** para guardar la herramienta personalizada, y ahora deberías poder verla:
 
-<figure><img src="../.gitbook/assets/image (51).png" alt="" width="279"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--51-.png" alt="" width="279"><figcaption></figcaption></figure>
 
 Ahora, crea un nuevo canvas con los siguientes nodos:
 
@@ -99,15 +99,15 @@ Debería verse como abajo después de conectarlos:
 
 Por ejemplo, podemos hacer preguntas como _"cómo cocinar un huevo"_
 
-<figure><img src="../.gitbook/assets/image (52).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--52-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Luego pide al agente que envíe todo esto a Discord:
 
-<figure><img src="../.gitbook/assets/image (53).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--53-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Ve al canal de Discord, y podrás ver el mensaje:
 
-<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--54-.png" alt=""><figcaption></figcaption></figure>
 
 ¡Eso es todo! OpenAI Function Agent será capaz de determinar automáticamente qué pasar como mensaje y enviarlo a Discord. Este es solo un ejemplo rápido de cómo activar un flujo de trabajo webhook con cuerpo dinámico. La misma idea se puede aplicar a flujos de trabajo que tienen un webhook y Gmail, GoogleSheets, etc.
 

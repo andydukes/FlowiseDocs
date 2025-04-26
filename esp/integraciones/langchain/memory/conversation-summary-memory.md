@@ -4,7 +4,7 @@ Usa la tabla de base de datos `chat_message` de Flowise como mecanismo de almace
 
 Este tipo de memoria crea un breve resumen de la conversación a lo largo del tiempo. Esto es útil para acortar información de discusiones largas. Actualiza y guarda un resumen actual mientras la conversación continúa. Esto es especialmente útil en chats más largos, donde guardar cada mensaje anterior ocuparía demasiado espacio.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (2).png" alt="" width="296"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--3---1---1---1---2-.png" alt="" width="296"><figcaption></figcaption></figure>
 
 ## Entrada
 

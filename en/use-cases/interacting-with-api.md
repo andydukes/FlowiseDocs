@@ -148,7 +148,7 @@ The OpenAPI Specification (OAS) defines a standard, language-agnostic interface 
 
 2. You can use a [JSON to YAML converter](https://jsonformatter.org/json-to-yaml) and save it as a `.yaml` file, and upload it to **OpenAPI Chain**, then test by asking some questions. **OpenAPI Chain** will send the whole specs to LLM, and have the LLM automatically use the correct method and parameters for the API call.
 
-<figure><img src="../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--133-.png" alt=""><figcaption></figcaption></figure>
 
 3. However, if you want to have a normal conversation chat, it is not able to do so. You will see the following error. This is because OpenAPI Chain has the following prompt:
 
@@ -158,7 +158,7 @@ Use the provided API's to respond to this user query
 
 Since we "forced" it to always find the API to answer user query, in the cases of normal conversation that is irrelevant to the OpenAPI, it fails to do so.
 
-<figure><img src="../.gitbook/assets/image (134).png" alt="" width="361"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--134-.png" alt="" width="361"><figcaption></figcaption></figure>
 
 Using this method might not work well if you have large OpenAPI spec. This is because we are including all the specifications as part of the message sent to LLM. We then rely on LLM to figure out the correct URL, query parameters, request body, and other necessary parameters needed to answer user query. As you can imagine, if your OpenAPI specs are complicated, there is a higher chance LLM will hallucinates.
 
@@ -170,15 +170,15 @@ OpenAPI Toolkit will converts each of the API from YAML file into a set of tools
 
 1. Connect **ToolAgent** with **OpenAPI Toolkit**. Here, we upload the YAML spec for OpenAI API. The spec file can be found at the bottom of the page.
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--25-.png" alt=""><figcaption></figcaption></figure>
 
 2. Let's try it!
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--1---1---1---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 As you can noticed from the chat, the agent is capable of carrying out normal conversation, and use appropriate tool to answer user query. If you are using Analytic Tool, you can see the list of tools we converted from the YAML file:
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--2---1---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 ## Conclusion
 

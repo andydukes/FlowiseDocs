@@ -2,7 +2,7 @@
 
 Convierte un Query Engine en una Tool que puede ser utilizada por [Sub-Question Query Engine](../engine/sub-question-query-engine.md) o Agent.
 
-<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--9---1---1---1---2-.png" alt=""><figcaption></figcaption></figure>
 
 ## Entradas
 

@@ -28,11 +28,11 @@ There are several analytic providers Flowise integrates with:
 
 3. You will see a list of providers, along with their configuration fields
 
-<figure><img src="../../.gitbook/assets/image (82).png" alt="Screenshot of an analytics provider with credentials fields expanded"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--82-.png" alt="Screenshot of an analytics provider with credentials fields expanded"><figcaption></figcaption></figure>
 
 4. Fill in the credentials and other configuration details, then turn the provider **ON**. Click Save.
 
-<figure><img src="../../.gitbook/assets/image (83).png" alt="Screenshot of analytics providers enabled"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--83-.png" alt="Screenshot of analytics providers enabled"><figcaption></figcaption></figure>
 
 ## API
 

@@ -8,10 +8,10 @@ Si estás ejecutando una Custom Function o LLM Chain, es posible que desees reut
 
 Tomando entradas de cualquier nodo que produzca salidas de tipo `string, number, boolean, json, array,` podemos asignarle un nombre de variable.
 
-<figure><img src="../../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png" alt="" width="270"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--11---1---1---1---1---1-.png" alt="" width="270"><figcaption></figcaption></figure>
 
 ### Get Variable
 
 Puedes obtener el valor de la variable usando el nombre de la variable en una etapa posterior:
 
-<figure><img src="../../.gitbook/assets/image (12) (1) (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--12---1---2-.png" alt="" width="563"><figcaption></figcaption></figure>

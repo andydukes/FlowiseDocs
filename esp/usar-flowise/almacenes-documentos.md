@@ -65,7 +65,7 @@ Observa que nuestra metadata personalizada `company: "liberty"` se ha insertado 
 
 <figure><img src="../.gitbook/assets/ds08.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/ds09%20(1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ds09%20(1-.png" alt=""><figcaption></figcaption></figure>
 
 Después de procesar tus datos, mantienes la capacidad de refinar chunks individuales eliminando o agregando contenido. Este control granular ofrece varias ventajas:
 
@@ -135,7 +135,7 @@ Puedes usar el vector store que fue configurado anteriormente:
 
 O, usar el Document Store (Vector):
 
-<figure><img src="../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--215-.png" alt=""><figcaption></figcaption></figure>
 
 ## 10. API
 
@@ -145,7 +145,7 @@ También hay soporte de APIs para crear, actualizar y eliminar document stores. 
 
 Puedes hacer upsert de un nuevo archivo usando una configuración existente de document loader y upsert. Por ejemplo, tienes un PDF loader dentro del document store, y el objetivo es usar la configuración existente, pero con un nuevo archivo.
 
-<figure><img src="../.gitbook/assets/image (216).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--216-.png" alt=""><figcaption></figcaption></figure>
 
 Primero, toma nota del store ID y document ID:
 

@@ -94,5 +94,5 @@ _Coming soon_
 
 You can view all the jobs, their status, result, data by navigating to `<your-flowise-url.com>/admin/queues`
 
-<figure><img src="../.gitbook/assets/image (253).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--253-.png" alt=""><figcaption></figcaption></figure>
 

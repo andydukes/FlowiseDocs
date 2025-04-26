@@ -14,7 +14,7 @@ You can find the example flow called - **WebPage QnA** from the marketplace temp
 
 We are going to use **Cheerio Web Scraper** node to scrape links from a given URL and the **HtmlToMarkdown Text Splitter** to split the scraped content into smaller pieces.
 
-<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--86-.png" alt=""><figcaption></figcaption></figure>
 
 If you do not specify anything, by default only the given URL page will be scraped. If you want to crawl the rest of relative links, click **Additional Parameters** of Cheerio Web Scraper.
 
@@ -23,7 +23,7 @@ If you do not specify anything, by default only the given URL page will be scrap
 1. Select `Web Crawl` or `Scrape XML Sitemap` in **Get Relative Links Method**.
 2. Input `0` in **Get Relative Links Limit** to retrieve all links available from the provided URL.
 
-<figure><img src="../.gitbook/assets/image (87).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--87-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Manage Links (Optional)
 
@@ -32,17 +32,17 @@ If you do not specify anything, by default only the given URL page will be scrap
 3. In **Crawled Links** section, remove unwanted links by clicking **Red Trash Bin Icon**.
 4. Lastly, click **Save**.
 
-<figure><img src="../.gitbook/assets/image (88).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--88-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## 2. Upsert
 
 1. On the top right corner, you will notice a green button:
 
-<figure><img src="../.gitbook/assets/Untitled (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Untitled--2-.png" alt=""><figcaption></figcaption></figure>
 
 2. A dialog will be shown that allow users to upsert data to Pinecone:
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--2---1---1---1---1---1---1---1---1---1---1---2-.png" alt=""><figcaption></figcaption></figure>
 
 **Note:** Under the hood, following actions will be executed:
 
@@ -59,14 +59,14 @@ If you do not specify anything, by default only the given URL page will be scrap
 
 Querying is relatively straight-forward. After you have verified that data is upserted to vector database, you can start asking question in the chat:
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--4---1---1---1---1---1---1---1---1---1---2-.png" alt=""><figcaption></figcaption></figure>
 
 In the Additional Parameters of Conversational Retrieval QA Chain, you can specify 2 prompts:
 
 * **Rephrase Prompt:** Used to rephrase the question given the past conversation history
 * **Response Prompt:** Using the rephrased question, retrieve the context from vector database, and return a final response
 
-<figure><img src="../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--91-.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 It is recommended to specify a detailed response prompt message. For example, you can specify the name of AI, the language to answer, the response when answer its not found (to prevent hallucination).
@@ -74,7 +74,7 @@ It is recommended to specify a detailed response prompt message. For example, yo
 
 You can also turn on the Return Source Documents option to return a list of document chunks where the AI's response is coming from.
 
-<figure><img src="../.gitbook/assets/Untitled (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Untitled--1---1---1---1-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Additional Web Scraping
 
@@ -84,7 +84,7 @@ Apart from Cheerio Web Scraper, there are other nodes that can perform web scrap
 * **Playwright:** Playwright is a Node.js library that provides a high-level API for controlling multiple browser engines, including Chromium, Firefox, and WebKit. You can use Playwright to automate web page interactions, including extracting data from dynamic web pages that require JavaScript to render.
 * **Apify:** [Apify](https://apify.com/) is a cloud platform for web scraping and data extraction, which provides an [ecosystem](https://apify.com/store) of more than a thousand ready-made apps called _Actors_ for various web scraping, crawling, and data extraction use cases.
 
-<figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--92-.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The same logic can be applied to any document use cases, not just limited to web scraping!

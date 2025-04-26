@@ -8,7 +8,7 @@ description: Carga datos desde el Rastreador de Contenido Web de Apify.
 
 El Actor [Website Content Crawler](https://apify.com/apify/website-content-crawler) puede rastrear sitios web en profundidad, limpiar su HTML eliminando modales de cookies, pies de página o navegación, y luego transformar el HTML en Markdown. Este Markdown puede ser almacenado en una base de datos vectorial para búsqueda semántica o Generación Aumentada por Recuperación (RAG).
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="266"><figcaption><p>Nodo del Rastreador de Contenido Web Apify</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--2---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="266"><figcaption><p>Nodo del Rastreador de Contenido Web Apify</p></figcaption></figure>
 
 ## Rastrear Sitio Web Completo
 

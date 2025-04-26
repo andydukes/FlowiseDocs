@@ -26,7 +26,7 @@ El procesamiento de imágenes solo funciona con ciertas cadenas/agentes en Chatf
 
 Si habilitas **Allow Image Upload**, podrás subir imágenes desde la interfaz de chat.
 
-<div align="center"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="255"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-02-29 011714.png" alt="" width="290"><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../.gitbook/assets/image--1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="255"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-02-29 011714.png" alt="" width="290"><figcaption></figcaption></figure></div>
 
 Para subir imágenes con la API:
 
@@ -98,7 +98,7 @@ En la Configuración del Chatflow, puedes seleccionar un módulo de speech-to-te
 
 Cuando esto está habilitado, los usuarios pueden hablar directamente al micrófono. Su voz se transcribe a texto.
 
-<div align="left"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-02-29 012538.png" alt="" width="431"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image--2---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1---1-.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-02-29 012538.png" alt="" width="431"><figcaption></figcaption></figure></div>
 
 Para subir audio con la API:
 
@@ -188,11 +188,11 @@ Puedes hacer upsert de los archivos subidos al vector store sobre la marcha. Par
   * [Text File](../integrations/langchain/document-loaders/text-file.md)
   * [Unstructured File](../integrations/langchain/document-loaders/unstructured-file-loader.md)
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--2---1---1---1---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 Puedes subir uno o más archivos en el chat:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="380"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-08-26 170456.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image--3---1---1---1-.png" alt="" width="380"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-08-26 170456.png" alt=""><figcaption></figcaption></figure></div>
 
 Así es como funciona:
 
@@ -205,7 +205,7 @@ Así es como funciona:
 
 Un ejemplo de un vector embedding con upsert en Pinecone:
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--4---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 Para hacer esto con la API, sigue estos dos pasos:
 
@@ -331,11 +331,11 @@ Con las cargas de archivos RAG, no puedes trabajar con datos estructurados como 
 
 Para habilitar la carga completa de archivos, ve a **Chatflow Configuration**, abre la pestaña **File Upload**, y activa el interruptor:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 Puedes ver el botón **File Attachment** en el chat, donde puedes subir uno o más archivos. Internamente, el [File Loader](../integrations/langchain/document-loaders/file-loader.md) procesa cada archivo y lo convierte en texto.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--1---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 Para subir archivos con la API:
 

@@ -628,7 +628,7 @@ This enables us to **create branches in our workflow**, where the path taken dep
 
 The Condition Node allows us to define dynamic branching logic in our workflow by choosing either a **table-based interface** or a **JavaScript code editor** to define the conditions that will control the conversation flow.
 
-<figure><img src="../../.gitbook/assets/seq-16 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/seq-16--1-.png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -811,7 +811,7 @@ The Condition Agent Node acts as a specialized agent that can both **process inf
 
 The Condition Agent Node allows us to define dynamic branching logic in our workflow by choose either a **table-based interface** or a **JavaScript code editor** to define the conditions that will control the conversation flow.
 
-<figure><img src="../../.gitbook/assets/seq-16 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/seq-16--1-.png" alt=""><figcaption></figcaption></figure>
 
 <details>
 

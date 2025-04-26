@@ -23,7 +23,7 @@ docker compose up -d --build
 
 5. Si tiene éxito, podrás ver las imágenes de docker iniciadas:
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (3).png" alt="" width="390"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--4---1---3-.png" alt="" width="390"><figcaption></figcaption></figure>
 
 ## Configuración
 
@@ -34,7 +34,7 @@ docker compose up -d --build
 | Collection Name | Nombre de la collection de Chroma. Consulta [aquí](https://docs.trychroma.com/usage-guide#creating-inspecting-and-deleting-collections) las convenciones de nombres |                       |
 | Chroma URL      | Especifica la URL de tu instancia de Chroma                                                                                                        | http://localhost:8000 |
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (2).png" alt="" width="238"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--6---1---1---1---1---2-.png" alt="" width="238"><figcaption></figcaption></figure>
 
 ### Adicional
 
@@ -94,7 +94,7 @@ docker compose up -d
 
 5. En la URL de Chroma, para sistemas operativos Windows y MacOS especifica [http://host.docker.internal:8000](http://host.docker.internal:8000/). Para sistemas basados en Linux, se debe usar el gateway por defecto de docker ya que host.docker.internal no está disponible: [http://172.17.0.1:8000](http://172.17.0.1:8000/)
 
-<figure><img src="../../../.gitbook/assets/image (5) (5).png" alt="" width="256"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--5---5-.png" alt="" width="256"><figcaption></figcaption></figure>
 
 ## Recursos
 

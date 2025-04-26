@@ -6,7 +6,7 @@ description: >-
 
 # Postgres
 
-<figure><img src="../../../.gitbook/assets/image (163).png" alt="" width="292"><figcaption><p>Nodo Postgres</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--163-.png" alt="" width="292"><figcaption><p>Nodo Postgres</p></figcaption></figure>
 
 Hay múltiples métodos para conectarse a Postgres según cómo esté configurada tu instancia. A continuación se muestra un ejemplo de una configuración local usando una imagen Docker precompilada proporcionada por el equipo de pgvector.
 
@@ -35,7 +35,7 @@ Usa `docker compose up` para iniciar el contenedor de Postgres.
 
 Crea una nueva credencial con el usuario y contraseña configurados:
 
-<figure><img src="../../../.gitbook/assets/image (50).png" alt="" width="526"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--50-.png" alt="" width="526"><figcaption></figcaption></figure>
 
 Completa los campos del nodo con los valores configurados en `docker-compose.yml`. Por ejemplo:
 

@@ -4,7 +4,7 @@ description: Custom Retriever permite al usuario especificar el formato del cont
 
 # Custom Retriever
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt="" width="298"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--3---1---1-.png" alt="" width="298"><figcaption></figcaption></figure>
 
 Por defecto, cuando el contexto se recupera del vector store, tiene el siguiente formato:
 

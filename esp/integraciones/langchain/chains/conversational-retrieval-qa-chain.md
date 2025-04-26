@@ -2,7 +2,7 @@
 
 Una cadena para realizar tareas de preguntas y respuestas con un componente de recuperación.
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--6---1---1---1---1---1---1---1---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 ## Definiciones
 

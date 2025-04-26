@@ -67,7 +67,7 @@ The default filesystem for services running on Render is ephemeral. Flowise data
 * SECRETKEY\_PATH - `/opt/render/.flowise`
 * BLOB\_STORAGE\_PATH - `/opt/render/.flowise/storage`
 
-<figure><img src="../../.gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image--1---5-.png" alt=""><figcaption></figcaption></figure>
 
 4. Click **Manual Deploy** then select **Clear build cache & deploy**
 

@@ -13,19 +13,19 @@ Puedes usar la API alojada o ejecutarla localmente a través de Docker.
 
 1\. Arrastra y suelta el cargador de archivos S3 en el lienzo:
 
-<figure><img src="../../../.gitbook/assets/image (71).png" alt="" width="234"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--71-.png" alt="" width="234"><figcaption></figcaption></figure>
 
 2\. Credencial AWS: Crea una nueva credencial para tu cuenta AWS. Necesitarás la clave de acceso y la clave secreta. Recuerda otorgar la política de bucket S3 a la cuenta asociada. Puedes consultar la guía de políticas [aquí](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Integrating.Authorizing.IAM.S3CreatePolicy.html).
 
-<figure><img src="../../../.gitbook/assets/image (72).png" alt="" width="551"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--72-.png" alt="" width="551"><figcaption></figcaption></figure>
 
 3. Bucket: Inicia sesión en tu consola AWS y navega a S3. Obtén el nombre de tu bucket:&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--73-.png" alt=""><figcaption></figcaption></figure>
 
 4. Key: Haz clic en el objeto que deseas usar y obtén el nombre de la Key:
 
-<figure><img src="../../../.gitbook/assets/image (75).png" alt="" width="228"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image--75-.png" alt="" width="228"><figcaption></figcaption></figure>
 
 5. URL de la API de Unstructured: Dependiendo de cómo estés usando Unstructured, ya sea a través de la API Alojada o Docker, cambia el parámetro de URL de la API de Unstructured. Si estás usando la API Alojada, también necesitarás la clave de API.
 6. Luego puedes comenzar a chatear con tu archivo desde S3. No necesitas especificar el text splitter para dividir el documento porque eso es manejado automáticamente por Unstructured.

@@ -10,7 +10,7 @@ From the last [Web Scrape QnA](web-scrape-qna.md) example, we are only upserting
 
 In this example, we are going to perform QnA on 2 PDFs, which are FORM-10K of APPLE and TESLA.
 
-<div align="left" data-full-width="false"><figure><img src="../.gitbook/assets/image (93).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (94).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../.gitbook/assets/image--93-.png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image--94-.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ## Upsert
 
@@ -27,7 +27,7 @@ In this example, we are going to perform QnA on 2 PDFs, which are FORM-10K of AP
 
 <figure><img src="../.gitbook/assets/multi-docs-upsert.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--98-.png" alt=""><figcaption></figcaption></figure>
 
 5. On the [Pinecone console](https://app.pinecone.io) you will be able to see the new vectors that were added.
 
@@ -37,19 +37,19 @@ In this example, we are going to perform QnA on 2 PDFs, which are FORM-10K of AP
 
 1. After verifying data has been upserted to Pinecone, we can now start asking question in the chat!
 
-<figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--100-.png" alt=""><figcaption></figcaption></figure>
 
 2. However, the context retrieved used to return the answer is a mix of both APPLE and TESLA documents. As you can see from the Source Documents:
 
-<div align="left"><figure><img src="../.gitbook/assets/Untitled (7).png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled (8).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/Untitled--7-.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled--8-.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 3. We can fix this by specifying a metadata filter from the Pinecone node. For example, if we only want to retrieve context from APPLE FORM-10K, we can look back at the metadata we have specified earlier in the [#upsert](multiple-documents-qna.md#upsert "mention") step, then use the same in the Metadata Filter below:
 
-<figure><img src="../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--102-.png" alt=""><figcaption></figcaption></figure>
 
 4. Let's ask the same question again, we should now see all context retrieved are indeed from APPLE FORM-10K:
 
-<figure><img src="../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--103-.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Each vector databse provider has different format of filtering syntax, recommend to read through the respective vector database documentation
@@ -69,7 +69,7 @@ By providing tools to agent, we can let the agent to decide which tool is suitab
 
 2. Connect to Pinecone node with metadata filter `{source: apple}`
 
-<figure><img src="../.gitbook/assets/image (104).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--104-.png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Repeat the same for Tesla:
 
@@ -81,7 +81,7 @@ It is important to specify a clear and concise description. This allows LLM to b
 
 Your flow should looks like below:
 
-<figure><img src="../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--154-.png" alt=""><figcaption></figcaption></figure>
 
 4. Now, we need to create a general instruction to Tool Agent. Click **Additional Parameters** of the node, and specify the **System Message**. For example:
 
@@ -105,13 +105,13 @@ The current date is: 2024-01-28
 
 5. Save the Chatflow, and start asking question!
 
-<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--110-.png" alt=""><figcaption></figcaption></figure>
 
-<div align="left"><figure><img src="../.gitbook/assets/Untitled (9).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled (10).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/Untitled--9-.png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled--10-.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 6. Follow up with Tesla:
 
-<figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--111-.png" alt=""><figcaption></figcaption></figure>
 
 7. We are now able to ask questions about any documents that we've previously upserted to vector database without "hard-coding" the metadata filtering by using tools + agent.
 
@@ -123,11 +123,11 @@ Metadata Retriever comes into play. The idea is to have LLM extract the metadata
 
 For example, if a user is asking questions related to Apple, a metadata filter `{source: apple}` will be automatically applied on vector database search.
 
-<div align="left"><figure><img src="../.gitbook/assets/image (235).png" alt="" width="297"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-11-29 155926.png" alt="" width="526"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image--235-.png" alt="" width="297"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-11-29 155926.png" alt="" width="526"><figcaption></figcaption></figure></div>
 
 In this scenario, we can have a single retriever tool, and place the **Metadata Retriever** between vector database and retriever tool.
 
-<figure><img src="../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--236-.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -163,7 +163,7 @@ Question: {input}
 {agent_scratchpad}
 ```
 
-<figure><img src="../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--20---1---1-.png" alt=""><figcaption></figcaption></figure>
 
 ## Conclusion
 

@@ -65,7 +65,7 @@ Note that our custom metadata `company: "liberty"` has been inserted into each c
 
 <figure><img src="../.gitbook/assets/ds08.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/ds09%20(1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ds09%20(1-.png" alt=""><figcaption></figcaption></figure>
 
 After processing your data, you retain the ability to refine individual chunks by deleting or adding content. This granular control offers several advantages:
 
@@ -135,7 +135,7 @@ You can use the vector store that was configured earlier:
 
 Or, use the Document Store (Vector):
 
-<figure><img src="../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--215-.png" alt=""><figcaption></figcaption></figure>
 
 ## 10. API
 
@@ -530,7 +530,7 @@ A: You can find the available configs from the **View API** button on each docum
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--2-.png" alt=""><figcaption></figcaption></figure>
 
 For each upsert, there are 5 elements involved:
 
@@ -602,7 +602,7 @@ What if the loader has file upload? Yes, you guessed it right, we have to use fo
 
 Using the image below as an example, we can override the **`usage`** parameter of the PDF File Loader like so:
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image--4-.png" alt=""><figcaption></figcaption></figure>
 
 {% tabs %}
 {% tab title="Python" %}
